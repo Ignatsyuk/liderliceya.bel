@@ -16,7 +16,7 @@ jobs:
         uses: matheusvanzan/sshpass-action@v2
         with:
           host: ${{ secrets.SERVER_HOST }}
-          user: merik
+          user: root
           pass: ${{ secrets.SERVER_PASS }}
           run: |
             cd /var/www/лидерлицея.бел/
