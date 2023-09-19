@@ -1,5 +1,5 @@
 <template>
   <div class="page">
-    hellow
+    Женёк – лучший!
   </div>
 </template>
