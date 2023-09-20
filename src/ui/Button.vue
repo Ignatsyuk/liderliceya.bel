@@ -63,7 +63,7 @@ const buttonClasses = computed(() => {
     font-weight: 600
 
     &:hover
-      background-color: #ff4141
+      background-color: #ff7e7e
 
   &.--secondary
     background-color: transparent

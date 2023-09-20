@@ -25,14 +25,14 @@
         <template v-slot:description>Установим кулер с водой на втором этаже лицея. Чтобы даже котик смог попить, когда нужно.</template>
       </PointCard>
 
-      <PointCard image="./gifs/kitchen.webp">
-        <template v-slot:title>Ты – не ты, когда голоден</template>
-        <template v-slot:description>Уговорим работников общежития и администрацию перенести закрытие кухни на 22:00.</template>
-      </PointCard>
-
       <PointCard image="./gifs/bench.webp">
         <template v-slot:title>Чтобы ножки не болели</template>
         <template v-slot:description>Добавим на территорию лицея дополнительные новые скамейки. Администрация уже одобрила!</template>
+      </PointCard>
+
+      <PointCard image="./gifs/kitchen.webp">
+        <template v-slot:title>Ты – не ты, когда голоден</template>
+        <template v-slot:description>Уговорим работников общежития и администрацию перенести закрытие кухни на 22:00.</template>
       </PointCard>
     </div>
 
