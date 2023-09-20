@@ -4,12 +4,14 @@
       <div class="contest-block__title heading-2">Две кепки <span>Make Lyceum Great Again</span></div>
 
       <div class="contest-block__description">
-        Прямо сейчас в нашем Telegram-канале разыгрываются бесплатно. Условия элементарные: просто нажать кнопку «Участвовать»
+        По фану разыгрываем две фирменные кепки в нашем Telegram-канале.
         <br><br>
-        Итоги: <b>28 сентября</b>
+        Условия максимально просты: подписаться на канал и нажать «Участвовать».
+        <br><br>
+        Итоги: <b>30 сентября</b>
       </div>
 
-      <Button is-primary class="contest-block__button" @click="onParticipateClick">Участвовать</Button>
+      <Button is-primary class="contest-block__button" @click="onParticipateClick">Открыть конкурс</Button>
     </div>
 
     <div class="contest-block__image">
@@ -24,7 +26,7 @@ import Button from '@/ui/Button.vue'
 import Image from '@/ui/Image.vue'
 
 function onParticipateClick() {
-  window.open('https://t.me/MakeLyceumGreat', '_blank')
+  window.open('https://t.me/MakeLyceumGreat/9', '_blank')
 }
 </script>
 

@@ -21,7 +21,7 @@ onMounted(() => {
   console.log('Developed with ♥ by Merik')
 
   window.onload = () => {
-    observeAnimations('.should-fade-in', 'faded-in')
+    // observeAnimations('.should-fade-in', 'faded-in')
     observeAnimations('.should-fade-in-left', 'faded-in-left')
   }
 })
@@ -30,6 +30,8 @@ onMounted(() => {
 <style scoped lang="sass">
 .main
   margin: 0 auto
+  animation: fadeIn 2s ease
+  overflow-x: hidden
 
   &__header
     margin-bottom: 12px

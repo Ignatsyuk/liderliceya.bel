@@ -9,11 +9,11 @@ const text = ref('')
 
 onMounted(() => {
   const words = [
-    'Make Lyceum Great Again!',
+    'MAKE LYCEUM GREAT AGAIN!',
     'Голосуй за Женька!',
     'Женёк – наш лидер!',
     'Эх, щас бы сочника...',
-    'Скачать ГДЗ 11 класс',
+    'Скачать ГДЗ 11 класс...',
   ]
 
   const length = words.length
