@@ -48,7 +48,7 @@ const buttonClasses = computed(() => {
 .button
   cursor: pointer
   padding: 12px 12px
-  font-size: 16px
+  font-size: 18px
   white-space: nowrap
   font-weight: 600
   border-radius: 8px
@@ -59,7 +59,7 @@ const buttonClasses = computed(() => {
 
   &.--primary
     background-color: red
-    font-size: 24px
+    font-size: 22px
     font-weight: 600
 
     &:hover

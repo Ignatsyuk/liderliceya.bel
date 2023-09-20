@@ -77,7 +77,6 @@ async function onLogoClick() {
     &__inner
       flex-direction: column-reverse
       gap: 24px
-      padding-bottom: 36px
 
     &__socials
       border-bottom: 1px solid rgba(0, 0, 0, 0.1)

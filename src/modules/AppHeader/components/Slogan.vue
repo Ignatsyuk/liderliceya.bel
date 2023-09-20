@@ -59,24 +59,3 @@ onMounted(() => {
   }, speed)
 })
 </script>
-
-<style scoped lang="sass">
-@keyframes fadeIn
-  from
-    opacity: 0
-
-  to
-    opacity: 1
-
-.slogan
-  padding-right: 8px
-
-  &:after
-    content: '|'
-    color: grey
-    font-weight: 300
-    position: absolute
-    right: 0
-    top: 0
-    animation: fadeIn 0.5s infinite
-</style>

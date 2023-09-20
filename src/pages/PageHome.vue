@@ -1,13 +1,18 @@
 <template>
   <div class="page page-home">
-    <div class="page-home__main">
+    <div class="page-home__main should-fade-in">
       <Slogan class="page-home__main-title" />
       <Button is-secondary class="page-home__main-button" @click="onProgramClick">К программе</Button>
     </div>
 
-    <div class="page-home__title heading-1" id="program">Наша программа</div>
+<!--    <div class="page-home__title heading-1 should-fade-in" id="program">Наши цели</div>-->
+<!--    <div class="heading-2 should-fade-in"><span class="page-home__number">1</span> Сделать жизнь лицеистов лучше</div>-->
+<!--    <div class="heading-2 should-fade-in"><span class="page-home__number">2</span> Получить как можно больше фана</div>-->
+<!--    <div class="heading-2 should-fade-in"><span class="page-home__number">3</span> Запомнится в истории</div>-->
 
-    <div class="heading-2"><span class="page-home__number">1</span> Для лучшей жизни</div>
+    <div class="page-home__title heading-1 should-fade-in" id="program">Наша программа</div>
+
+    <div class="heading-2 should-fade-in"><span class="page-home__number">1</span> Для лучшей жизни</div>
 
     <div class="page-home__cards">
       <PointCard image="./gifs/board-games.gif">
@@ -26,7 +31,7 @@
       </PointCard>
     </div>
 
-    <div class="heading-2"><span class="page-home__number">2</span> Новые мероприятия</div>
+    <div class="heading-2 should-fade-in"><span class="page-home__number">2</span> Новые мероприятия</div>
 
     <div class="page-home__cards">
       <PointCard image="./gifs/sport.webp">
@@ -45,7 +50,7 @@
       </PointCard>
     </div>
 
-    <div class="heading-2"><span class="page-home__number">3</span> Telegram-бот</div>
+    <div class="heading-2 should-fade-in"><span class="page-home__number">3</span> Telegram-бот</div>
 
     <div class="page-home__cards">
       <PointCard image="./images/bot/1.jpg">
@@ -64,9 +69,9 @@
       </PointCard>
     </div>
 
-    <div class="page-home__title heading-1" id="program">Конкурс</div>
+    <div class="page-home__title heading-1 should-fade-in" id="program">Конкурс</div>
 
-    <ContestBlock />
+    <ContestBlock class="should-fade-in-left" />
   </div>
 </template>
 

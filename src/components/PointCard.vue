@@ -1,5 +1,5 @@
 <template>
-  <div class="point-card">
+  <div class="point-card should-fade-in-left">
     <div class="point-card__info">
       <div class="point-card__title">
         <slot name="title" />
