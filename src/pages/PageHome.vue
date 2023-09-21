@@ -71,7 +71,7 @@
 
       <PointCard image="./images/bot/2.jpeg">
         <template v-slot:title>Опросы</template>
-        <template v-slot:description>Будем сообща выбирать идеи для улучшения жизни в лицее, а также решать, наприме, какой фильм сегодня будем смотреть.</template>
+        <template v-slot:description>Будем сообща выбирать идеи для улучшения жизни в лицее, а также решать, например, какой фильм сегодня будем смотреть.</template>
       </PointCard>
 
       <PointCard image="./images/bot/3.jpeg">
