@@ -59,7 +59,7 @@ const buttonClasses = computed(() => {
 
   &.--primary
     background-color: red
-    font-size: 22px
+    font-size: 16px
     font-weight: 600
 
     &:hover

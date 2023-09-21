@@ -17,7 +17,7 @@
         <span>Захаревич Миша</span>
       </div>
 
-      <Button is-primary class="modal__button" @click="emit('closeModal')">Офигенно, дальше!</Button>
+      <Button is-primary class="modal__button" @click="emit('closeModal')">Вернуться</Button>
     </div>
   </div>
 </template>
@@ -51,7 +51,6 @@ const emit = defineEmits(['closeModal'])
       font-weight: 600
 
   &__button
-    font-size: 16px !important
     margin-top: 24px
     width: 100%
 

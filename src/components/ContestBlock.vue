@@ -64,6 +64,9 @@ function onParticipateClick() {
     b
       font-weight: 600
 
+  &__button
+    font-size: 20px !important
+
   &__image
     display: flex
 

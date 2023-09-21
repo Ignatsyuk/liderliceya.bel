@@ -1,6 +1,7 @@
 <template>
   <div class="page page-home">
     <div class="page-home__main should-fade-in">
+      <div class="page-home__main-background"></div>
       <Slogan class="page-home__main-title" />
       <Button is-secondary class="page-home__main-button" @click="onProgramClick">К программе</Button>
     </div>
@@ -128,9 +129,10 @@ async function onProgramClick() {
     font-size: 26px
 
   &__main
+    position: relative
+    overflow: hidden
     width: 100%
     height: 400px
-    background-color: red
     margin-bottom: 54px
     display: flex
     flex-direction: column
@@ -140,14 +142,26 @@ async function onProgramClick() {
     text-align: center
     padding: 24px 16px
     border-radius: 0 12px 0 12px
+    background-image: url('./images/photos/trump.png')
+    background-size: 100%
+    background-position: 100% 10%
+
+    &-background
+      background-color: red
+      position: absolute
+      width: 100%
+      height: 100%
+      opacity: 0.4
 
     &-title
       font-size: 54px
       font-weight: 900
       text-shadow: 0px 3px 0 black
+      z-index: 1
 
     &-button
       margin-top: 36px
+      z-index: 1
 
   &__cards
     display: grid
@@ -163,6 +177,9 @@ async function onProgramClick() {
     &__main
       height: 64vh
       margin-bottom: 30px
+      background-size: 100% auto
+      background-position: center top
+      background-image: url('./images/photos/trump-mobile.png')
 
       &-title
         min-height: 140px

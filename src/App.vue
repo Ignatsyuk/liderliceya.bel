@@ -1,5 +1,5 @@
 <template>
-  <AppModal v-if="isModalVisible" class="main" @closeModal="isModalVisible = false" />
+  <AppModal v-if="layoutStore.isModalVisible" class="main" @closeModal="layoutStore.isModalVisible = false" />
 
   <main v-else class="main">
     <AppHeader class="main__header should-fade-in" />
@@ -17,10 +17,11 @@ import AppHeader from '@/modules/AppHeader'
 import AppFooter from '@/modules/AppFooter'
 import AppModal from '@/modules/AppModal/AppModal.vue'
 
-import { onMounted, ref } from 'vue'
+import { onMounted } from 'vue'
 import { observeAnimations } from '@/utils/animations'
+import { useLayoutStore } from '@/stores'
 
-const isModalVisible = ref(true)
+const layoutStore = useLayoutStore()
 
 onMounted(() => {
   console.log('Developed with ♥ by Merik')
@@ -35,7 +36,7 @@ onMounted(() => {
 <style scoped lang="sass">
 .main
   margin: 0 auto
-  animation: fadeIn 2s ease
+  animation: fadeIn 1.5s ease
   overflow-x: hidden
 
   &__header
