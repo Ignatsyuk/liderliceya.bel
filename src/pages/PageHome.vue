@@ -142,7 +142,7 @@ async function onProgramClick() {
     text-align: center
     padding: 24px 16px
     border-radius: 0 12px 0 12px
-    background-image: url('/images/photos/trump.png')
+    //background-image: url('/images/photos/trump.png')
     background-size: 100%
     background-position: 100% 10%
 
@@ -151,7 +151,7 @@ async function onProgramClick() {
       position: absolute
       width: 100%
       height: 100%
-      opacity: 0.4
+      //opacity: 0.4
 
     &-title
       font-size: 54px
@@ -179,7 +179,7 @@ async function onProgramClick() {
       margin-bottom: 30px
       background-size: 100% auto
       background-position: center top
-      background-image: url('/images/photos/trump-mobile.png')
+      //background-image: url('/images/photos/trump-mobile.png')
 
       &-title
         min-height: 140px

@@ -9,7 +9,7 @@ const text = ref('')
 
 onMounted(() => {
   const words = [
-    'MAKE LYCEUM GREAT AGAIN!',
+    'MAKE LYCEUM GREATER!',
     'Голосуй за Женька!',
     'Женёк – наш лидер!',
     'Эх, щас бы сочника...',

@@ -3,7 +3,7 @@
     <div class="footer__inner container">
       <div class="footer__info">
         <Image src="./images/logo.png" class="footer__logo" @click="onLogoClick" />
-        <div class="footer__title">© 2023, Make Lyceum Great Again!</div>
+        <div class="footer__title">© 2023, Make Lyceum Greater!</div>
       </div>
 
       <div class="footer__socials">
