@@ -31,3 +31,29 @@ body
 
 .faded-in-left
   animation: fadeInLeft 1.5s ease
+
+.number-circle
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  border: 1px solid black
+  height: 32px
+  width: 32px
+  border-radius: 50%
+  color: red
+  margin-right: 2px
+  font-size: 26px
+
+.card-list
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr
+  grid-gap: 40px 32px
+
+  &:not(:last-child)
+    margin-bottom: 64px
+
+  @media screen and (max-width: $breakpointTablet)
+    grid-template-columns: 1fr 1fr
+
+  @media screen and (max-width: $breakpointMobile)
+    grid-template-columns: 1fr

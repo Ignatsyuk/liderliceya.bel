@@ -12,6 +12,12 @@ const router = createRouter({
     },
 
     {
+      path: '/program',
+      name: 'program',
+      component: () => import('@/pages/PageProgram.vue')
+    },
+
+    {
       path: '/win',
       name: 'win',
       component: () => import('@/pages/PageWin.vue')

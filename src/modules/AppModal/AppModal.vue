@@ -39,6 +39,7 @@ const emit = defineEmits(['closeModal'])
   display: flex
   justify-content: center
   align-items: center
+  animation: fadeIn 1.5s ease
 
   &__content
     padding: 12px

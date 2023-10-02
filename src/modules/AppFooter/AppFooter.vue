@@ -70,6 +70,9 @@ async function onLogoClick() {
       margin-right: 12px
 
   @media screen and (max-width: $breakpointMobile)
+    &__title
+      text-align: right
+
     &__info
       width: 100%
       justify-content: space-between

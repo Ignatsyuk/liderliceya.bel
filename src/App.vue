@@ -1,5 +1,5 @@
 <template>
-  <AppModal v-if="layoutStore.isModalVisible" class="main" @closeModal="layoutStore.isModalVisible = false" />
+  <AppModal v-if="layoutStore.isModalVisible" @closeModal="layoutStore.isModalVisible = false" />
 
   <main v-else class="main">
     <AppHeader class="main__header should-fade-in" />
@@ -36,12 +36,12 @@ onMounted(() => {
 <style scoped lang="sass">
 .main
   margin: 0 auto
-  animation: fadeIn 1.5s ease
   overflow-x: hidden
   min-height: 100%
   display: flex
   flex-direction: column
   justify-content: space-between
+  animation: fadeIn 1.5s ease
 
   & > *
     width: 100%
