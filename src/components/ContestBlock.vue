@@ -8,10 +8,12 @@
         <br><br>
         Условия максимально просты: подписаться на канал и нажать «Участвовать».
         <br><br>
-        Итоги: <b>30 сентября</b>
+        <span style="text-decoration: line-through;">Итоги: <b>30.09.2023</b></span>
+        <br><br>
+        <b>Розыгрыш завершён!</b>
       </div>
 
-      <Button is-primary class="contest-block__button" @click="onParticipateClick">Открыть конкурс</Button>
+      <Button is-primary class="contest-block__button" @click="onParticipateClick">Открыть розыгрыш</Button>
     </div>
 
     <div class="contest-block__image">

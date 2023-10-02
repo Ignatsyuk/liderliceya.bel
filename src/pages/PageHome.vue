@@ -11,6 +11,10 @@
 <!--    <div class="heading-2 should-fade-in"><span class="page-home__number">2</span> Получить как можно больше фана</div>-->
 <!--    <div class="heading-2 should-fade-in"><span class="page-home__number">3</span> Запомнится в истории</div>-->
 
+    <div class="page-home__title heading-1 should-fade-in">Мы победили! 🎉</div>
+
+    <TelegramPost link="https://t.me/MakeLyceumGreat/22" />
+
     <div class="page-home__title heading-1 should-fade-in" id="program">Наша программа</div>
 
     <div class="heading-2 should-fade-in"><span class="page-home__number">1</span> Забота о лицеистах</div>
@@ -89,7 +93,7 @@
       </PointCard>
     </div>
 
-    <div class="page-home__title heading-1 should-fade-in" id="program">Конкурс</div>
+    <div class="page-home__title heading-1 should-fade-in" id="program">Розыгрыш</div>
 
     <ContestBlock class="should-fade-in-left" />
   </div>
@@ -102,6 +106,7 @@ import Button from '@/ui/Button.vue'
 import ContestBlock from '@/components/ContestBlock.vue'
 
 import { useRouter } from 'vue-router'
+import TelegramPost from '@/ui/TelegramPost.vue'
 
 const router = useRouter()
 
@@ -182,8 +187,8 @@ async function onProgramClick() {
       //background-image: url('/images/photos/trump-mobile.png')
 
       &-title
-        min-height: 140px
-        font-size: 44px
+        min-height: 150px
+        font-size: 40px
 
       &-button
         margin-top: 12px
