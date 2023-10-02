@@ -1,7 +1,7 @@
 <template>
   <header class="header" id="header">
     <div class="header__inner container">
-      <Image src="./images/logo.png" class="header__logo" />
+      <Image src="./images/logo.png" class="header__logo" @click="router.push('/')" />
 
       <div class="header__button" @click="onButtonClick">Поэма о Женькé -></div>
     </div>
@@ -12,6 +12,9 @@
 import Image from '@/ui/Image.vue'
 
 import { useLayoutStore } from '@/stores'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
 
 const layoutStore = useLayoutStore()
 

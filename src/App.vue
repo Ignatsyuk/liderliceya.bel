@@ -38,6 +38,13 @@ onMounted(() => {
   margin: 0 auto
   animation: fadeIn 1.5s ease
   overflow-x: hidden
+  min-height: 100%
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+  & > *
+    width: 100%
 
   &__header
     margin-bottom: 12px
