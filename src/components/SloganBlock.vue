@@ -35,7 +35,7 @@ async function onProgramClick() {
   border-radius: 0 12px 0 12px
   background-image: url('/images/photos/trump.png')
   background-size: 100%
-  background-position: 100% 30%
+  background-position: 100% 16%
 
   &__background
     background-color: red
@@ -57,7 +57,7 @@ async function onProgramClick() {
   @media screen and (max-width: $breakpointMobile)
     height: 64vh
     margin-bottom: 30px
-    background-size: auto 100%
+    background-size: cover
     background-position: center top
     background-image: url('/images/photos/trump-mobile.png')
 
