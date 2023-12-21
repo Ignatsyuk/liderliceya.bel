@@ -33,16 +33,16 @@ async function onProgramClick() {
   text-align: center
   padding: 24px 16px
   border-radius: 0 12px 0 12px
-  //background-image: url('/images/photos/trump.png')
+  background-image: url('/images/photos/trump.png')
   background-size: 100%
-  background-position: 100% 10%
+  background-position: 100% 30%
 
   &__background
     background-color: red
     position: absolute
     width: 100%
     height: 100%
-    //opacity: 0.4
+    opacity: 0.4
 
   &__title
     font-size: 54px
@@ -57,9 +57,9 @@ async function onProgramClick() {
   @media screen and (max-width: $breakpointMobile)
     height: 64vh
     margin-bottom: 30px
-    background-size: 100% auto
+    background-size: auto 100%
     background-position: center top
-    //background-image: url('/images/photos/trump-mobile.png')
+    background-image: url('/images/photos/trump-mobile.png')
 
     &__title
       min-height: 150px

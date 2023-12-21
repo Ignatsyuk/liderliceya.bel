@@ -7,7 +7,7 @@
       </div>
 
       <div class="footer__socials">
-        <div class="footer__socials-title">Соц. сети Женькá -></div>
+        <div class="footer__socials-title">Соц. сети Жени -></div>
         <Socials />
       </div>
     </div>

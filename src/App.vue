@@ -1,7 +1,7 @@
 <template>
   <AppModal v-if="layoutStore.isModalVisible" @closeModal="layoutStore.isModalVisible = false" />
 
-  <main v-else class="main">
+  <main v-show="!layoutStore.isModalVisible" class="main" :class="{ '--hidden': layoutStore.isModalVisible }">
     <AppHeader class="main__header should-fade-in" />
 
     <div class="main__content container">
@@ -27,8 +27,7 @@ onMounted(() => {
   console.log('Developed with ♥ by Merik')
 
   window.onload = () => {
-    // observeAnimations('.should-fade-in', 'faded-in')
-    observeAnimations('.should-fade-in-left', 'faded-in-left')
+    observeAnimations('.should-fade-in', 'faded-in')
   }
 })
 </script>
@@ -42,6 +41,10 @@ onMounted(() => {
   flex-direction: column
   justify-content: space-between
   animation: fadeIn 1.5s ease
+  transition: opacity 0.4s ease
+
+  &.--hidden
+    opacity: 0
 
   & > *
     width: 100%

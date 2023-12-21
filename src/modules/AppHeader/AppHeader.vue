@@ -3,7 +3,7 @@
     <div class="header__inner container">
       <Image src="./images/logo.png" class="header__logo" @click="router.push('/')" />
 
-      <div class="header__button" @click="onButtonClick">Поэма о Женькé -></div>
+      <div class="header__button" @click="onButtonClick">Поэма про Женька -></div>
     </div>
   </header>
 </template>

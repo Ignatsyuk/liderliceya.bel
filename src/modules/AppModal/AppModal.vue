@@ -40,6 +40,7 @@ const emit = defineEmits(['closeModal'])
   justify-content: center
   align-items: center
   animation: fadeIn 1.5s ease
+  z-index: 1000
 
   &__content
     padding: 12px
@@ -48,8 +49,11 @@ const emit = defineEmits(['closeModal'])
     font-style: italic
 
     span
+      display: inline-block
       font-style: normal
       font-weight: 600
+      text-align: right
+      width: 100%
 
   &__button
     margin-top: 24px

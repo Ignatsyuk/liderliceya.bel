@@ -13,7 +13,7 @@
         <b>Розыгрыш завершён!</b>
       </div>
 
-      <Button is-primary class="contest-block__button" @click="onParticipateClick">Открыть розыгрыш</Button>
+      <Button is-primary class="contest-block__button" @click="onParticipateClick">Смотреть результаты</Button>
     </div>
 
     <div class="contest-block__image">
