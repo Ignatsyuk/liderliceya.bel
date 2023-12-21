@@ -34,7 +34,7 @@ async function onProgramClick() {
   padding: 24px 16px
   border-radius: 0 12px 0 12px
   background-image: url('/images/photos/trump.png')
-  background-size: 100%
+  background-size: cover
   background-position: 100% 16%
 
   &__background
